@@ -1,0 +1,60 @@
+/* CSS do Computador */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+header {
+    padding: 50px 0;
+    background-color: #C4170C;
+}
+.titulo {
+    font-family: "catamaran", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.manchete {
+    font-size: 50px;
+    font-family: "adobe-gothic-std", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.linhafina {
+    font-weight: normal;
+    color: #555;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* CSS do Celular */
+
+@media handheld and (min-width: 20em), screen and (min-width: 20em)  {
+    body {
+        width: 830px;
+    }
+
+    .titulo {
+        font-size: 80px;
+    }
+
+    .manchete {
+        font-size: 90px;
+    }
+
+    .linhafina {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 50px;
+    }
+}
