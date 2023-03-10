@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 830px;
+}
+header {
+    padding: 50px 0;
+    background-color: #C4170C;
+}
+.titulo {
+    font-family: "catamaran", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+.manchete {
+    font-size: 90px;
+    font-family: "adobe-gothic-std", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.linhafina {
+    font-weight: normal;
+    color: #555;
+    font-size: 50px;
+    margin-left: 5px;
+}
+
+p {
+    font-size: 50px;
+    margin-left: 5px;
+}
+
+/* Tamabho da fonte no computador */
+
+@media only screen and (min-width: 768px) {
+    body {
+        width: auto;
+    }
+    
+    header {
+        padding: 50px 0;
+    }
+
+    .titulo {
+        font-size: 40px;
+
+    }
+    .manchete {
+        font-size: 50px;
+    }
+    .linhafina {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+}
